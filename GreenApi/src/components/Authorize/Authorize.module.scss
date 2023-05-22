@@ -1,0 +1,31 @@
+.authorize {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #232e35;
+}
+
+.strip{
+  background-color: #268069;
+  height: 6px;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.submit_btn {
+  width: fit-content;
+  margin-left: auto;
+}

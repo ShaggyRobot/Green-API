@@ -1,0 +1,21 @@
+.messages_block {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #0b141a;
+  overflow: hidden;
+  padding: 25px;
+}
+
+.bg{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.06;
+  background-image: url('/whatsappBG.png');
+  background-repeat: repeat;
+  pointer-events: none;
+}
