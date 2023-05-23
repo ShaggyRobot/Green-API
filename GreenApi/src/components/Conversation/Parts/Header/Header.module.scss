@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  background: #212c33;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.form_input {
+  border-radius: 4px 0 0 4px !important;
+  background-color: #2e3942;
+}
+
+.set_contact {
+  height: 2rem;
+  margin: 0 8px 0 0;
+  border-radius: 0 4px 4px 0;
+
+  &:disabled {
+    background-color: #2e3942 !important;
+  }
+}

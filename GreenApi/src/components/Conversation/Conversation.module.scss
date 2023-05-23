@@ -1,0 +1,8 @@
+.conversation {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-grow: 1;
+  min-width: 478px;
+  border-left: 1px solid rgba(233,237,239,0.12);
+}
