@@ -7,6 +7,6 @@
 'cd Green-API'
 'git checkout dev'
 'cd GreenApi/'
-'npm i' 'или yarn'
+'npm i' или 'yarn'
 'npm run dev' или 'yarn dev'
 ```
