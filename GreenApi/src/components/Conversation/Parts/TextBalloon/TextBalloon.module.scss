@@ -1,12 +1,9 @@
 .text_balloon {
   position: relative;
-  display: flex;
-  place-items: center;
   margin: 0 0 4px auto;
-  padding: 4px 12px;
+  padding: 8px 12px;
   max-width: 48%;
   width: fit-content;
-  min-height: 32px;
   height: fit-content;
   border-radius: 8px;
   background-color: #215c4b;
